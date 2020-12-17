@@ -1,0 +1,311 @@
+body{
+    background: black;
+}
+
+/* navbar */
+.navbar-brand{
+    margin-right: 0px;
+} 
+
+.navbar, .nav-link{
+    color: white !important;
+    font-size: 20px;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+
+
+.nav-link:hover{
+    border-bottom: 1px solid #FF0000;
+}
+
+.contact {
+    border: 1px #FF0000 solid;
+    padding: 5px 20px 5px 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* profile */
+.profile{
+    color: white;
+    margin-top: 90px;
+}
+.profile h1{
+    font-size: 34px;
+    text-transform: uppercase;
+    text-shadow: 7px 5px 7px #FF0000;
+    margin-bottom: 30px;
+}
+
+.profile p{
+    font-size: 20px;
+}
+
+.button-skills{
+    border-radius: 35px;
+    background-color: black;
+    border: 2px solid #0026ff;
+    color: white;
+    text-shadow: 5px 3px 5px #FF0000;
+    width: 230px;
+    height: 45px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.button-skills:hover{
+    background: #0026ff;
+}
+
+.profile-skills{
+    margin-top: 125px;
+}
+
+.list-skills h1{
+    font-size: 38px;
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.list-skills .skills-desc{
+    background: rgba(255,234,234,0.62);
+    box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.2);
+    width: 220px;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.skills-desc{
+    text-align: center;
+    color: white;
+}
+.skills-desc h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.skills-desc p{   
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.equipment h1{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.list-equipment{
+    background: rgba(255,234,234,0.62);
+    width: 350px;
+    height: 190px;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.2);
+    margin-bottom: 20px;
+}
+
+.list-equipment img{
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+}
+
+.list-equipment p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.title{
+    margin-top: 50px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+.zero img{
+    margin-top: 50px;
+}
+
+.zero-desc h1{
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.zero-desc h2{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.zero-desc p{
+    color: white;
+    margin-top: 20px;
+}
+
+.grand h1{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.grand h2{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.grand p{
+    margin-top: 20px;
+    color: white;
+}
+.grand-image img{
+    margin-top: 30px;
+}
+
+.testimonial{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    margin-top: 70px;
+}
+
+.review{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.review img{
+    width: 210px;
+    margin-top: 30px;
+}
+
+.review h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 15px;
+}
+
+.review p{
+    font-size: 16px;    
+}
+
+.review span{
+    color: #c4c4c4;
+    font-style: italic;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 992px) { 
+    .contact {
+        border: 1px #FF0000 solid;
+        padding: 5px 20px 5px 20px;
+        margin-left: 30px;
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+    .profile-skills img{
+        margin-left: -120px;
+    }
+    .list-skills{
+        margin-top: 70px;
+    }
+    .list-skills h1{
+        font-size: 38px;
+        color: white;
+        font-weight: 400;
+        margin-top: 70px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+
+    .list-skills .desc{
+        margin-left: -120px;
+    }
+    .equipment h1{
+        color: white;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .list-equipment img{
+        margin-top: 30px;
+        border-radius: 10px;
+        width: 165px;
+        height: 100px;
+    }
+    .list-equipment{
+        background: rgba(255,234,234,0.62);
+        width: 350px;
+        height: 190px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 5px 3px 10px rgba(255, 255, 255, 0.2);    
+    }
+    .list-equipment p{
+        margin-top: 20px;
+        color: white;
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .zero img{
+        margin-left: -120px;
+    }
+
+    .zero-desc{
+        margin-left: -70px;
+    }
+
+    .zero-desc h1{
+        color: white;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .grand h1{
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        margin-top: 70px;
+    }
+
+    .grand-image img{
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+ }
